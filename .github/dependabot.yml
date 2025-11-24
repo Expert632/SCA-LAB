@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"       # Pour Node.js; pour Python => "pip"
+    directory: "/"                 # Chemin du package.json
+    schedule:
+      interval: "daily"            # Fréquence du scan
