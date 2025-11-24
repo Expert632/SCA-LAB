@@ -1,7 +1,12 @@
 {
-  "name": "lab-sca-demo",
+  "name": "lab-sca-dependabot",
   "version": "1.0.0",
+  "description": "Lab pédagogique SCA avec GitHub Dependabot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "lodash": "4.17.15"  // version volontairement vulnérable pour la démo
+    "lodash": "4.17.15"
   }
 }
